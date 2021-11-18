@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Source+Sans+Pro:ital,wght@1,200&display=swap');
+#karte {
+    width: 400px;
+    height: 400px;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#kopf {
+    height: 350px;
+    background-color: #1BA39C;
+    background-image: url(./image/moderne-webprogrammierung-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    margin: 0;
+}
+
+#profil {
+    padding-top: 50px;
+    width: 250px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+}
+
+#profil a {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#profil p {
+    font-size: 130%;
+    font-weight: bold;
+}
+
+#profil_img {
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+#profil_img img {
+    width: 230px;
+    margin-left: -25px;
+}
+
+#social {
+    background-color: #EEEEEE;
+    height: 50px;
+}
+
+.box {
+    width: 200px;
+    height: 50px;
+    float: left;
+    color: gray;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.box a {
+    text-decoration: none;
+}
+
+.box:hover a {
+    color: white;
+}
+
+#fb:hover {
+    background-color: #1F3A93;
+    color: white;
+}
+
+#yt:hover {
+    background-color: #D91E18;
+    color: white;
+}
